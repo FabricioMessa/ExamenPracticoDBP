@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>Documentos Vitae</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='Formulario_styles.css')}}"> <!--El href con todo el url_for es para acceder a la caperta static en donde se encuentra el archico css-->
+</head>
+<body>
+    <form action="" method="POST" id="formulario"> <!--El metódo POST es para que el usuario no vea lo información--> 
+        <div class="padre"> <!--Creo una clase padre donde va a conetener todos los div-->
+            <h1>Formulario de Curriculum Vitae</h1> <!--Nombre del formulario-->
+            <div class="grupo">
+                <input type="text" name="" id="name" required><span class="barra"></span> <!--el tipo text es para crear una caja de texto y poder rellenarla-->
+                <label for="">Nombres</label>                                             <!--el name siempre se pone-->
+            </div>                                                                        <!--la id es para llamar a una variable y ponerlo al label-->
+            <div class="grupo">                                                           <!--el atributo required si para que el usuario complete primero el primer campo antes de pasar al segundo-->
+                <input type="text" name="" id="name" required><span class="barra"></span> <!--el span lo uso para aplicar estilo al texto en línea y le pongo una clase para modificarlo en css--> 
+                <label for="">Apellidos</label> 
+            </div>
+            <div class="grupo">
+                <input type="text" name="" id="name" required><span class="barra"></span> 
+                <label for="">Carrera</label>
+            </div>
+            <div class="grupo">
+                <input type="text" name="" id="name" required><span class="barra"></span> 
+                <label for="">Edad</label>
+            </div>
+            <div class="grupo">
+                <textarea id="presentacion"></textarea>  <!--El textarea es para crear una gran caja de texto y colocar pues eso, mucho texto-->
+                <label for="presentacion">Presentación</label>
+            </div>
+            <div class="grupo">
+                <textarea id="expLaboral"></textarea>
+                <label for="expLaboral">Experiencia Laboral</label>
+            </div>
+            <div class="grupo">
+                <textarea id="studios"></textarea>
+                <label for="studios">Estudios</label>
+            </div>
+            <div class="grupo">
+                <textarea id="logros"></textarea>
+                <label for="logros">Logros</label>
+            </div>
+            <div class="grupo">
+                <textarea id="habilidades"></textarea>
+                <label for="habilidades">Habilidades</label>
+            </div>
+            <div class="grupo">
+                <textarea id="interes"></textarea>
+                <label for="interes">Interesés</label>
+            </div>
+            <div class="grupo">
+                <textarea id="referencias"></textarea>
+                <label for="referencias">Referencias</label>
+            </div>
+            <button type="submit">Crear CV</button>  <!--en la parte de buttom le puse de tipo submit para poder hacer click en el-->
+        </div>
+    </form>
+</body>
+</html>

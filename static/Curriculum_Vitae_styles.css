@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div#general{
+    margin: auto;
+    margin-top: 15px;
+    width: 870px;
+    height: 950px;
+    background-color: #D8DFD9 ;
+}
+
+div#foto{
+    width: 320px;
+    height: 950px;
+    border-color: black;
+    background-color: #B2B8B3;
+}
+
+.textbox{
+    background-color: #EAF3ED;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    margin: 0px auto;
+    width: 280px;
+}
+
+#texto{
+    font: Arial; 
+    width: 100%;
+}
+
+h2{
+    margin: 10px;
+}
+
+h3{
+    margin: 5px;
+    text-align: justify;
+}
+
+.SecondTextBox{
+    background-color: black;
+    margin-right: auto;
+}
+
+div#Cajauno{
+    float: right;
+    width: 550px;
+    height: 950px;
+    background-color: grey;
+}
+
+.textbox2{
+    background-color: #B2B8B3;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: justify;
+    margin: 10px;
+    width: 495px;
+    height: 345px;
+}
+
+#texto2{
+    font: Arial; 
+    width: 100%;
+}
+
+.textbox3{
+    background-color: #B2B8B3;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: justify;
+    margin: 10px;
+    width: 495px;
+    height: 505px;
+}
+
+#texto3{
+    font: Arial; 
+    width: 100%;
+}
